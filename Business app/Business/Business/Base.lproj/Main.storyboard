@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Business" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j61-3r-TLq">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="95i-V1-i8g" userLabel="content view">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bdm-aQ-RTt">
+                                                <rect key="frame" x="106.5" y="19" width="201" height="101"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="101" id="3aa-tL-zHi"/>
+                                                </constraints>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="JOOJLE">
+                                                        <attributes>
+                                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <font key="NSFont" size="52" name="AmericanTypewriter"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHX-vQ-And" userLabel="Detail">
+                                                <rect key="frame" x="20" y="100" width="374" height="207"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment>
+                                                        <string key="content">This is a business that looks like the company google and it's a mimic company that not doing anything. JOOJLE is a professional shell company that created by an anonymous CEO for no purpose. </string>
+                                                        <attributes>
+                                                            <font key="NSFont" size="23" name="Courier"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUr-z1-Fcd" userLabel="Address">
+                                                <rect key="frame" x="67" y="307" width="280" height="35"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="280" id="LuZ-9h-LNY" userLabel="width = "/>
+                                                </constraints>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="ADDRESS: 1600 Amphitheatre Parkway Mountain View, CA 94043">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="15" name="ComicSansMS"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7e9-on-plU" userLabel="Hours">
+                                                <rect key="frame" x="67" y="347" width="280" height="17.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="280" id="Ap8-Th-l3k"/>
+                                                </constraints>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="HOURS: 24/7">
+                                                        <attributes>
+                                                            <font key="NSFont" size="15" name="ComicSansMS"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phone.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="IB8-CB-8gf">
+                                                <rect key="frame" x="67" y="381" width="60" height="57.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="Qi9-5T-Owc"/>
+                                                    <constraint firstAttribute="height" constant="60" id="sfA-ob-K8i"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email: JOOJLE@GMAIL.COM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DCk-l4-I5G" userLabel="Email">
+                                                <rect key="frame" x="132" y="379.5" width="197.5" height="18"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Website: google.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4Q-eX-KLu" userLabel="Website">
+                                                <rect key="frame" x="132" y="401.5" width="145" height="18"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="f4Q-eX-KLu" firstAttribute="top" secondItem="DCk-l4-I5G" secondAttribute="bottom" constant="4" id="0Tz-CU-KGy"/>
+                                            <constraint firstItem="eHX-vQ-And" firstAttribute="centerX" secondItem="95i-V1-i8g" secondAttribute="centerX" id="55x-3K-jRU"/>
+                                            <constraint firstItem="Bdm-aQ-RTt" firstAttribute="centerX" secondItem="eHX-vQ-And" secondAttribute="centerX" id="7RD-I7-0h5"/>
+                                            <constraint firstItem="dUr-z1-Fcd" firstAttribute="centerX" secondItem="eHX-vQ-And" secondAttribute="centerX" id="9n7-gH-jg4"/>
+                                            <constraint firstItem="dUr-z1-Fcd" firstAttribute="bottom" secondItem="7e9-on-plU" secondAttribute="top" constant="-5" id="D5o-Nw-DRz"/>
+                                            <constraint firstItem="eHX-vQ-And" firstAttribute="top" secondItem="95i-V1-i8g" secondAttribute="top" constant="100" id="K9k-hH-4uO"/>
+                                            <constraint firstAttribute="trailing" secondItem="eHX-vQ-And" secondAttribute="trailing" constant="20" id="M6V-ns-w9f"/>
+                                            <constraint firstItem="eHX-vQ-And" firstAttribute="leading" secondItem="95i-V1-i8g" secondAttribute="leading" constant="20" id="THV-JI-PIk"/>
+                                            <constraint firstItem="Bdm-aQ-RTt" firstAttribute="bottom" secondItem="eHX-vQ-And" secondAttribute="top" constant="20" id="UtY-jd-RGE"/>
+                                            <constraint firstItem="IB8-CB-8gf" firstAttribute="top" secondItem="DCk-l4-I5G" secondAttribute="top" id="VoU-JL-PAt"/>
+                                            <constraint firstItem="7e9-on-plU" firstAttribute="bottom" secondItem="IB8-CB-8gf" secondAttribute="top" constant="-15" id="f5I-Sr-LPa"/>
+                                            <constraint firstItem="f4Q-eX-KLu" firstAttribute="leading" secondItem="IB8-CB-8gf" secondAttribute="trailing" constant="5" id="fL8-sB-WJz"/>
+                                            <constraint firstItem="dUr-z1-Fcd" firstAttribute="top" secondItem="eHX-vQ-And" secondAttribute="bottom" id="gfa-Tr-cqp"/>
+                                            <constraint firstItem="IB8-CB-8gf" firstAttribute="leading" secondItem="7e9-on-plU" secondAttribute="leading" id="j8J-jM-zAd"/>
+                                            <constraint firstItem="7e9-on-plU" firstAttribute="centerX" secondItem="dUr-z1-Fcd" secondAttribute="centerX" id="jSl-af-uqT"/>
+                                            <constraint firstItem="DCk-l4-I5G" firstAttribute="leading" secondItem="IB8-CB-8gf" secondAttribute="trailing" constant="5" id="spE-Fz-RFp"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="95i-V1-i8g" secondAttribute="trailing" id="8lI-N8-ffg"/>
+                                    <constraint firstItem="pTU-K4-Zyy" firstAttribute="bottom" secondItem="95i-V1-i8g" secondAttribute="bottom" id="SJ8-D8-1bf"/>
+                                    <constraint firstItem="95i-V1-i8g" firstAttribute="leading" secondItem="j61-3r-TLq" secondAttribute="leading" id="lr3-oS-y5B"/>
+                                    <constraint firstItem="95i-V1-i8g" firstAttribute="top" secondItem="pTU-K4-Zyy" secondAttribute="top" id="nHu-yx-0nG"/>
+                                    <constraint firstItem="95i-V1-i8g" firstAttribute="centerX" secondItem="j61-3r-TLq" secondAttribute="centerX" id="qAD-sI-lRV"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="wRd-4P-Nv4"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="pTU-K4-Zyy"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="j61-3r-TLq" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="7zn-Am-uzA"/>
+                            <constraint firstAttribute="trailing" secondItem="j61-3r-TLq" secondAttribute="trailing" id="KZs-oI-6oh"/>
+                            <constraint firstItem="j61-3r-TLq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="YL1-6u-fgI"/>
+                            <constraint firstItem="j61-3r-TLq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="e5m-8b-wdx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="phone.fill" catalog="system" width="128" height="114"/>
+    </resources>
+</document>
